@@ -11,6 +11,7 @@ fs = gcsfs.GCSFileSystem(project = 'spy-data')
 filename = fs.ls('spy_data_bucket')[0]
 print('name',filename)
 app = Dash(__name__)
+server = app.server 
 df = vaex.open("gs://"+filename, fs_options={'anon': True},
                    )
 
