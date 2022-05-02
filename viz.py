@@ -17,7 +17,7 @@ df = vaex.open("gs://"+filename, fs_options={'anon': True},
 
 app.layout = html.Div(children=[
     html.H1(children='SPYing on Options Data',
-            className='header card', style={'textAlign': 'center'}),
+            className='header card', style={'textAlign': 'center', 'fontFamily':'Arial'}),
     html.Div(children=[
         html.Div(children=[
             html.Div(children = [
