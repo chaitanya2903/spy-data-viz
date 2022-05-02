@@ -9,6 +9,7 @@ data for their own research.
 ## Running Procedure:
 ```
 git clone https://github.com/chaitanya2903/spy-data-viz 
+pip install -r requirements.txt
 python viz.py 
 ```
 
