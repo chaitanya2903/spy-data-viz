@@ -6,3 +6,17 @@ cap stocks traded on the NYSE. This ETF was chosen because it represents a large
 this project was to identify relationships between option Greek values and option performance over various time frames, as well providing users with tools to easily filter and visualize
 data for their own research.
 
+## Running Procedure:
+run: git clone https://github.com/chaitanya2903/spy-data-viz
+run: python viz.py
+
+
+
+
+## Requirements
+Dash 2.1.0
+gcsfs 2022.3.0
+Pandas 1.4.1
+Plotly 5.7.0
+Vaex 4.9.1
+vaex_viz 0.5.1
