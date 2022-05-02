@@ -14,9 +14,9 @@ run: python viz.py
 
 
 ## Requirements
-Dash 2.1.0
-gcsfs 2022.3.0
-Pandas 1.4.1
-Plotly 5.7.0
-Vaex 4.9.1
-vaex_viz 0.5.1
+Dash 2.1.0 <br>
+gcsfs 2022.3.0 <br>
+Pandas 1.4.1 <br>
+Plotly 5.7.0 <br>
+Vaex 4.9.1 <br>
+vaex_viz 0.5.1 <br>
