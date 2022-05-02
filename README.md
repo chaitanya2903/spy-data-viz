@@ -8,8 +8,8 @@ data for their own research.
 
 ## Running Procedure:
 ```
-git clone https://github.com/chaitanya2903/spy-data-viz <br>
-python viz.py <br>
+git clone https://github.com/chaitanya2903/spy-data-viz 
+python viz.py 
 ```
 
 
