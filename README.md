@@ -7,8 +7,8 @@ this project was to identify relationships between option Greek values and optio
 data for their own research.
 
 ## Running Procedure:
-run: git clone https://github.com/chaitanya2903/spy-data-viz
-run: python viz.py
+run: git clone https://github.com/chaitanya2903/spy-data-viz <br>
+run: python viz.py <br>
 
 
 
