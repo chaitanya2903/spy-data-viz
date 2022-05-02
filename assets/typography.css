@@ -17,34 +17,35 @@ body{
     background-color: #F1F1F1;
 }
 
- .row1{
-    flex-basis:0;
+.r1c1{
+    width: 50%;
+}
+.r1c2{
+    width: 50%;
 }
 
-.row1-col1{
-    flex-basis: 0;
+.r2c1{
+    width: 50%;
 }
-.row1-col2{
-    flex-basis: 0;
+.r2c2{
+    width: 50%;
 }
-.row1-col3{
-    flex-basis: 0;
-} 
-
-
-.row2-col1{
-    flex-grow: 1;
-    flex-basis: 0;
+.r4c1{
+    width: 33%
 }
-.row2-col2{
-    flex-grow: 1;
-    flex-basis: 0;
+.r4c2{
+    width: 33%
 }
-.row2-col3{
-    flex-grow: 1;
-    flex-basis: 0;
+.r4c3{
+    width: 33%
 }
-/* .container{
-    align-items: stretch;
-} */
-
+.col1{
+    width:68%;
+    
+}
+.matrix{
+    width:32%;
+}
+.allrows{
+    height: 100%;
+}
