@@ -495,7 +495,7 @@ def cor_matrix(start_date, end_date, call_put_selector, ITM_slider, DTE_slider, 
     cor_mat_df = cor_mat_df.to_pandas_df()
     cor_mat_df.columns = ['Option Gain', 'Volume', 'DTE', 'ITM_OTM', 'IV', 'Delta', 'Gamma', 'Theta', 'Vega']
     cor_mat_final = cor_mat_df.corr()
-    fig = px.imshow(cor_mat_final, text_auto=True, aspect="auto",
+    fig = px.imshow(cor_mat_final, text_auto='0.02f', aspect="auto",
                     title='Correlation Matrix',
                     color_continuous_scale='rdylgn',
                     color_continuous_midpoint=0
